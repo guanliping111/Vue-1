@@ -21,4 +21,16 @@
 
     - unit Testing  E2E 测试
 
-## element源码解析
+## 阅读element-ui源码 解析
+https://github.com/ElemeFE/element/blob/dev/packages/button/src/button.vue
+- Button组件源码分析
+    1. 定义组件
+    2. <slot></slot>
+    3. :class 动态类名 动态绑定属性
+    4. @click
+    5. type
+    6. export default
+        props  data 传值 外界传入
+        computed 计算属性
+        created() 生命周期
+        inject
